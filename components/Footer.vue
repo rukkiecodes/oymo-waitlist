@@ -40,12 +40,12 @@ export default {
     </v-col>
 
     <v-col cols="12" sm="6">
-      <div :class="rightAlign" class="d-flex mt-6">
+      <div :class="rightAlign" class="d-flex justify-center justify-md-end mt-6">
         <v-btn @click="toggleDialog" depressed class="font-weight-bold">
           Faq
         </v-btn>
 
-        <v-btn @click="toggleDialog" depressed class="font-weight-bold text-capitalize">
+        <v-btn @click="toggleDialog" depressed class="font-weight-bold text-capitalize mx-4">
           Privacy policy
         </v-btn>
 

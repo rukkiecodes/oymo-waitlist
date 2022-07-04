@@ -12,7 +12,10 @@ export default {
     flat
     color="transparent"
   >
-    <span class="ml-2 hidden-sm-and-down logo">Oymo</span>
+    <div class="d-flex justify-space-between align-center">
+      <img src="../assets/img/logo.png" style="width: 2.5em; height: 2.5em;" />
+      <span class="ml-2 hidden-sm-and-down logo mt-n3">Oymo</span>
+    </div>
 
     <v-spacer />
 
@@ -36,7 +39,7 @@ export default {
 
     <v-btn
       @click="toggleDialog"
-      class="text-capitalize"
+      class="text-capitalize hidden-xs-only"
       depressed
       color="transparent"
     >
